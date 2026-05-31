@@ -19,6 +19,7 @@
   color: #f4f4fd;
 }
 .footer-text {
+  text-align: left;
   max-width: 264px;
   font-size: 16px;
   line-height: 1.5;

@@ -1,6 +1,6 @@
 .team-section {
     background: #f4f4fd;
-    padding: 120px 0;
+    padding: 96px 0;
 }
 .team-title {
      margin-bottom: 72px;
@@ -78,4 +78,19 @@ margin-bottom: 8px;
 }
 .team-social-link svg {
   fill: #f4f4fd;
+}
+
+@media screen and (min-width: 768px) {
+  .team-list {
+    gap: 64px 24px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .team-section {
+    padding: 120px 0;
+  }
+  .team-list {
+    gap: 24px;
+  }
 }
